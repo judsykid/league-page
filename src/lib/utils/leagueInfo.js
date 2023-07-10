@@ -261,7 +261,7 @@ export const managers = [
       "name": "Bob Deziel",
       // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "University Ave", // (optional)
-      "bio": "Thinks of draft picks like Schrodinger though of cats",
+      "bio": "Thinks of draft picks like Schrodinger thought of cats",
       "photo": "/managers/bob.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
