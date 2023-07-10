@@ -8,6 +8,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the 2023 season!</p>
+  <p>For weekly matchups headover to the Matchups tab!</p>
+  <p>All trades and waiver claims can be found under the 'Trades & Waivers' tab</p>
+  <p>Various league info including rosters, manager bios, head-to-head history, standings, and records can be found under the 'League Info' tab</p>
+  <p>Struggling to stay competitive? Can't keep up with the news or don't know where to look for updates? Head over to the 'Resources' tab!</p>
 `;
 
 /*   STEP 3   */
