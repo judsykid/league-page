@@ -396,7 +396,7 @@ export const managers = [
     {
       // "roster": 17,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "730869645342535680",
-      "name": "Emos",
+      "name": "Emonigho Abamwa",
       // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
