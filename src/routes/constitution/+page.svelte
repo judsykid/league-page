@@ -1,6 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneOneTwo, oneOneThree, oneOneFour, oneTwo, oneTwoOne, oneTwoTwo, oneThree, oneThreeOne, oneThreeTwo, oneThreeThree;
+    let one, oneOne, oneOneOne, oneOneTwo, oneOneThree, oneOneFour, oneTwo, oneTwoOne, oneTwoTwo, oneThree, oneThreeOne, oneThreeTwo, oneThreeThree, oneFour, oneFourOne, oneFourTwo, oneFourThree, oneFive, oneFiveOne;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne;
     let four, fourOne, fourTwo;
@@ -107,13 +107,10 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Owner Conduct & Responsibilities</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Responsibilities</h4>
             <!--h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5-->
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Conduct</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Activity Requirements</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneFour)}>1.4 Anti-Competitive Behaviour</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneFive)}>1.5 Violations</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
     
@@ -211,6 +208,73 @@
     <div class="subBlock">
         <p>Failure to meet activity requirements will result in warnings, sanctions, or removal from the league. </p>
     </div>
+
+    <h3 bind:this={oneFour}>1.4 Anti-Competitive Behaviour</h3>
+
+    <h4 bind:this={oneFourOne}>1.4.1</h4>
+    <div class="subBlock">
+        <p>Anticompetitive conduct is defined as owners or teams engaging in conduct that prevents, reduces, or otherwise negatively affects the natural competition and well-being of the league. Such conduct is subject to sanctions.</p>
+        <ol>
+        <li>During season: 48 hours</li>
+        <li>During offseason: 7 days</li>
+        <li>The Co-Commissioners may extend the time limit by request or in extenuating circumstances, at their discretion.</li>
+        <li>An owner may respond to a trade by rejecting/countering/accepting through the software platform.</li>
+        </ol>
+    </div>
+
+    <h4 bind:this={oneFourTwo}>1.4.2</h4>
+    <div class="subBlock">
+        <p>The following actions are strictly prohibited: 
+    </div>
+    <h5>1.4.2.1</h5>
+    <div class="subBlock5">
+        <p>Anti-Competitive Trades</p>
+        <ol>
+        <li>Owners may not make trades that result in worsening their own team in order to stock another team playing a third team they want or need to lose.</li>
+        <li>1.4.2.1.2. If an owner does not intend to return for the next season, their trades must be approved by a co-commissioner prior to being completed.</li>
+        </ol>
+    </div>
+    <h5>1.4.2.2</h5>
+    <div class="subBlock5">     
+        <p>Collusion</p>
+        <ol>
+        <li>Collusion is defined as two or more owners making arrangements and/or acting in concert to influence the results of league activities such as game outcomes, draft standing or player availability</li>
+        <li>Any unsportsmanlike conduct coordinated between two or more owners is considered to be collusion, as is teams trading to consolidate better players on one team and/or agreeing to share payouts by acting in concert.</li>
+        </ol>
+    </div>
+    <h5>1.4.2.3</h5>
+    <div class="subBlock5">     
+        <p>Roster Dumping</p>
+        <ol>
+        <li>An owner who, without good reason, cuts players from their team who are obviously valuable is subject to sanctions.</li>
+        <li>It is understood that teams can and will drop “borderline” players from their rosters, but dropping obvious fantasy starters or large amounts of average players in an attempt to increase draft position, make players available to others by way of collusion, or sabotage the integrity of the league, shall not be tolerated.</li>
+        </ol>
+    </div>
+
+    <h4 bind:this={oneFourThree}>1.4.3</h4>
+    <div class="subBlock">
+        <p>Tanking</p>
+    </div>
+    <h5>1.4.3.1</h5>
+    <div class="subBlock5">
+        <p>Tanking is permitted but an owner must submit a valid lineup weekly.</p>
+    </div>
+
+    <h3 bind:this={oneFive}>1.5 Violations</h3>
+
+    <h4 bind:this={oneFiveOne}>1.5.1</h4>
+    <div class="subBlock">
+        <p>Owners may report rule/bylaw violations to the Co-Commissioners for investigation - they can do so anonymously if they so choose. The Co-Commissioners will investigate and may assess sanctions or forfeits.</p>
+    </div>
+    <h5>1.5.1.1</h5>
+    <div class="subBlock5">
+        <p>Official reports must be submitted for review in the week that the violation took place, prior to the subsequent kickoff.</p>
+    <ol>
+        <li>Sanctions or forfeits in response to violations will be issued within the same week, time permitting, but no later than 48 hours from the report.</li>
+        <li>The Co-Commissioners reserve the right to enforce sanctions outside the one week window for egregious violations that harm the competitive balance of the league. </li>
+        </ol>
+    </div>
+
 
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
