@@ -167,22 +167,32 @@
         <p>Owners are responsible for responding to emails and private messages from the Co-Commissioners and other league members in a timely manner.</p>    
         </div>
 
-
-
-
-    <h4 bind:this={oneThreeTwo}>1.3.2</h4>
+        <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Conduct</h3>
+  
+    <h4 bind:this={oneTwoOne}>1.2.1</h4>
     <div class="subBlock">
-        <p>Lineups must be set weekly during the season, including playoffs, with the exception of bye-week playoffs.</p>
-    </div>
-    <h5>1.3.2.1</h4>
-    <div class="subBlock">
-        <p>With the exception of kicker, if a team does not have an active player available to be played in a position a replacement player does not need to be acquired to fill the position.</p>
+        <p>Trash talking and shit-posting are actively encouraged.</p>
     </div>
 
-    <h4 bind:this={oneThreeThree}>1.3.3</h4>
+    <h4 bind:this={oneTwoTwo}>1.2.2</h4>
     <div class="subBlock">
-        <p>Failure to meet activity requirements will result in warnings, sanctions, or removal from the league. </p>
+        <p>The Co-Commissioners shall be the moderators of all chat channels.</p>
     </div>
+
+    <h3 bind:this={oneThree}>1.3 Activity Requirements</h3>
+
+    <h4 bind:this={oneThreeOne}>1.3.1</h4>
+    <div class="subBlock">
+        <p>Trade inquiries sent by DFL must be responded to within a certain time limit, as set out below:</p>
+        <ol>
+        <li>During season: 48 hours</li>
+        <li>During offseason: 7 days</li>
+        <li>The Co-Commissioners may extend the time limit by request or in extenuating circumstances, at their discretion.</li>
+        <li>An owner may respond to a trade by rejecting/countering/accepting through the software platform.</li>
+        </ol>
+    </div>
+
+
 
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
