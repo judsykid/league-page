@@ -49,6 +49,7 @@
     }
 
     h5 {
+        text-decoration: underline;
         margin-left: 6em;
         font-size: 1.2em;
         line-height: 1.2em;
@@ -58,7 +59,7 @@
         margin-left: 2.4em;
     }
     .subBlock5 {
-        margin-left: 6em;
+        margin-left: 6.4em;
     }
 
     .sectionHeading {
