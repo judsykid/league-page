@@ -204,7 +204,7 @@
         <p>Lineups must be set weekly during the season, including playoffs, with the exception of bye-week playoffs.</p>
     </div>
     <h5>1.3.2.1</h5>
-    <div class="subBlock">
+    <div class="subBlock5">
         <p>With the exception of kicker, if a team does not have an active player available to be played in a position a replacement player does not need to be acquired to fill the position.</p>
     </div>
     
@@ -275,7 +275,7 @@
     <h5>1.5.1.1</h5>
     <div class="subBlock5">
         <p>Official reports must be submitted for review in the week that the violation took place, prior to the subsequent kickoff.</p>
-    <ol>
+        <ol>
         <li>Sanctions or forfeits in response to violations will be issued within the same week, time permitting, but no later than 48 hours from the report.</li>
         <li>The Co-Commissioners reserve the right to enforce sanctions outside the one week window for egregious violations that harm the competitive balance of the league. </li>
         </ol>
@@ -325,6 +325,7 @@
     <h4>3.1.3</h4>
     <div class="subBlock">
         <p>The Co-Commissioners explicitly shall not make executive decisions that alter what is set in the bylaws for:</p>
+    </div>
         <h5>3.1.3.1</h5>
         <div class="subBlock5">
             <p>League payout settings</p>
@@ -337,10 +338,10 @@
         <div class="subBlock5">
             <p>League roster settings (aside from interpretation of existing rules and ruling on uncertainties) </p>
         </div>
-    </div>
     <h4>3.1.4</h4>
     <div class="subBlock">
         <p>The Co-Commissioners shall be empowered to complete the following:</p>
+    </div>
         <h5>3.1.4.1</h5>
         <div class="subBlock5">
             <p>Exercise executive decision rights in all cases of uncertainty for situations occurring in the current year and/or requiring immediate decisions </p>
@@ -381,7 +382,6 @@
             </ol>
             <p>*All FAAB fines shall be taken from the current season’s budget if possible - if not possible the following season’s budget will be reduced. If the owner is booted from the league, all "following-season" penalties shall be removed.</p>
         </div>
-    </div>
 
     <h2 class="sectionHeading" bind:this={four}>Section 4 League Platforms</h2>
     <h3>4.1</h3>
@@ -483,6 +483,7 @@
     <h4>9.2.1</h4>
     <div class="subBlock">
         <p>The four six place teams (teams 7-12) in the final league standings after completion of the playoffs will have the first six positions in the draft, with their positions being determined via a draft lottery, with team 12 receiving 8ballots, team 11 6 ballots, team 10 receiving 4 ballots, team 9 receiving 3 ballots, team 8 receiving 2 ballots, and team 7 receiving 1 ballot. </p>
+    </div>
     <h5>9.2.1.1</h5>
     <div class="subBlock5">
         <p>In the lottery, team 12 cannot receive worse than the 1.04 position for the rookie draft, and team 11 cannot receive worse than the 1.05 position in the rookie draft.</p>
@@ -490,7 +491,6 @@
      <h5>9.2.1.2</h5>
     <div class="subBlock5">
         <p>Team standings for teams 7-12 will be determined by their maximum season theoretical points for as determined by Sleeper, with the team with the fewest maximum theoretical points for receiving 12th place in the league.</p>
-    </div>
     </div>
     <h4>9.2.2</h4>
     <div class="subBlock">
@@ -505,10 +505,10 @@
     <h4>9.3.2</h4>
     <div class="subBlock">
         <p>Each pick is allotted a 12 hour draft clock</p>
+    </div>
     <h5>9.3.2.1</h5>
     <div class="subBlock5">
         <p>Draft clock will start immediately following the previous pick </p>
-    </div>
     </div>
     <h4>9.3.3</h4>
     <div class="subBlock">
