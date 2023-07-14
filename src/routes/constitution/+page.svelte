@@ -7,6 +7,15 @@
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
+    let eight;
+    let nine;
+    let ten;
+    let eleven;
+    let twelve;
+    let thirteen;
+    let fourteen;
+    let fifteen;
+    let sixteen;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -112,11 +121,7 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneFour)}>1.4 Anti-Competitive Behaviour</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneFive)}>1.5 Violations</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Teams, Ownership, and Replacement</h3>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
     
@@ -303,61 +308,354 @@
     <div class="subBlock">
         <p>Owner vacancies will be posted on the message board. The list of potential owners shall be voted upon by league members and the vote winner shall be awarded the vacancy (pending payment of dues).</p>
     </div>
-    
-    
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
-    <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
-    
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
-    
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
-    
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
 
-    <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
-    </ol>
+    <h2 class="sectionHeading" bind:this={three}>Section 3 League Governance</h2>
+    <h3 bind:this={threeOne}>3.1</h3>	
+    <p>Jesse Kennedy and Bob Deziel are the Co-Commissioners.<p>
+    <h4>3.1.1</h4>
+    <div class="subBlock">
+        <p>The Co-Commissioners will act in good faith and at all times in the best interest of the league to maintain a fun, fair, and competitive environment.</p>
+    </div>
+    <h4>3.1.2</h4>
+    <div class="subBlock">
+        <p>In the rare instance that a situation arises that is not covered by the bylaws, the Co-Commissioners has the right to rule on the issue in the best interest of the league and these rulings are final, binding, and cannot be appealed.</p>
+    </div>
+    <h4>3.1.3</h4>
+    <div class="subBlock">
+        <p>The Co-Commissioners explicitly shall not make executive decisions that alter what is set in the bylaws for:</p>
+        <h5>3.1.3.1</h5>
+        <div class="subBlock5">
+            <p>League payout settings</p>
+        </div>
+        <h5>3.1.3.2</h5>
+        <div class="subBlock5">
+            <p>League scoring settings [aside from interpreting existing rules and ruling on uncertainties] </p>
+        </div>
+        <h5>3.1.3.3</h5>
+        <div class="subBlock5">
+            <p>League roster settings (aside from interpretation of existing rules and ruling on uncertainties) </p>
+        </div>
+    </div>
+    <h4>3.1.4</h4>
+    <div class="subBlock">
+        <p>The Co-Commissioners shall be empowered to complete the following:</p>
+        <h5>3.1.4.1</h5>
+        <div class="subBlock5">
+            <p>Exercise executive decision rights in all cases of uncertainty for situations occurring in the current year and/or requiring immediate decisions </p>
+        </div>
+        <h5>3.1.4.2</h5>
+        <div class="subBlock5">
+            <p>Set lineups and perform team/roster moves for owners by request (in case of emergency, subject to the Co-Commissioners’ availability) </p>
+        </div>
+        <h5>3.1.4.3</h5>
+        <div class="subBlock5">
+            <p>Finalize league calendar dates and times, and ensure calendar is updated and followed </p>
+        </div>
+        <h5>3.1.4.4</h5>
+        <div class="subBlock5">
+            <p>Collect league dues, enforce payment deadlines, and facilitate payouts as per this document </p>
+        </div>
+        <h5>3.1.4.5</h5>
+        <div class="subBlock5">
+            <p>Ensure that actions that require dues to be paid are completed only if dues are up to date </p>
+        </div>
+        <h5>3.1.4.6</h5>
+        <div class="subBlock5">
+            <p>Investigate inactivity, rules violations, and owner misconduct, and assign sanctions at their discretion </p>
+            <ul>
+            <li>Inactivity and misconduct sanctions can be appealed within 48 hours of assigned sanction </li>
+            </ul>
+        </div>
+        <h5>3.1.4.7</h5>
+        <div class="subBlock5">
+            <p>Apply sanctions at his discretion, from the following list of sanctions - in order of severity:</p>
+            <ol>
+            <li>Retroactive cancellation of trades and forfeits declared for any affected games</li>
+            <li>Suspension of transaction rights for a specified period</li>
+            <li>Fine of $100 FAAB</li>
+            <li>Fine of $250 FAAB</li>
+            <li>Forfeiture of draft picks</li>
+            <li> Removal of owner from league (aka Ban)</li>
+            </ol>
+            <p>*All FAAB fines shall be taken from the current season’s budget if possible - if not possible the following season’s budget will be reduced. If the owner is booted from the league, all "following-season" penalties shall be removed.</p>
+        </div>
+    </div>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
-    
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <h2 class="sectionHeading" bind:this={four}>Section 4 League Platforms</h2>
+    <h3>4.1</h3>
+    <p>League will be hosted on Sleeper</p>
+    <h3>4.2</h3>	
+    <p>Communications will be hosted on Facebook Messenger and the Facebook Group</p>    
+    <h3>4.3</h3>	
+    <p>All official announcements shall be posted the Facebook Group Dynasty for Dummies.</p>
+    <h3>4.4</h3>	
+    <p>League fees will be paid to one of either Co-Commissioner (Bob or Jesse)</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
-    
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
-    
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <h2 class="sectionHeading" bind:this={five}>Section 5 Rosters</h2>
+    <h3>5.1</h3>
+    <p>Roster Limits</p>
+    <h4>5.1.1</h4>
+    <div class="subBlock">
+        <p>During the NFL regular season, there shall be a hard maximum of 28 players on the active roster, with a maximum of two kickers per team.</p>
+    </div>
+    <h4>5.1.2</h4>
+    <div class="subBlock">
+        <p>Starting the day of the rookie draft, the roster limit will expand to 33 spaces to accommodate picks.</p>
+    </div>
+    <h3>5.2</h3>
+    <p>Two IR spots shall be allocated to each team, and shall be used as follows </p>
+    <h4>5.2.1</h4>
+    <div class="subBlock">
+        <p>Must be listed as (IR) or (I) on Sleeper</p>
+    </div>
+    <h4>5.2.2</h4>
+    <div class="subBlock">
+        <p>If the player no longer qualifies under rule he must be moved to the active roster or the owner shall be prevented from setting a valid lineup. </p>
+    </div>
+    <h3>5.3</h3>
+    <p>Five Taxi Squad spots shall be allocated to each team and shall be used as follows: </p>
+    <h4>5.3.1</h4>
+    <div class="subBlock">
+        <p>Any player that has been in the NFL for less than three years shall be permitted to be on the Taxi Squad </p>
+    </div>
+    <h4>5.3.2</h4>
+    <div class="subBlock">
+        <p>Once an owner promotes a player from the Taxi Squad, they, any other team, shall not be allowed to demote him again. </p>
+    </div>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
-    
-    <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
-    
-    <h3 bind:this={sevenTwo}>7.2 Payout</h3>
-    <p>League payout is structured as follows:</p>
+
+    <h2 class="sectionHeading" bind:this={six}>Section 6 Free Agency and FAAB</h2>
+    <h3>6.1</h3>
+    <p>All dropped players shall go onto waivers. Owners can blind bid on these players from their Free Agency Auction Budget (FAAB).</p>
+    <h4>6.1.1</h4>
+    <div class="subBlock">
+        <p>Each owner starts the season with $1000 to spend on Free Agents. The minimum increment of bid is $1, and the minimum bid is $0 </p>
+    </div>
+    <h4>6.1.2</h4>
+    <div class="subBlock">
+        <p>At each waiver process time, the highest bid shall receive the player if there is roster room. If there is a tie, the played with the highest waiver priority shall receive the player. The winning bid shall be deducted from the budget. </p>
+    </div>
+    <h4>6.1.3</h4>
+    <div class="subBlock">
+        <p>The FAAB Budget resets every year at the start of DFL regular season (Preseason Week 2).</p>
+    </div>
+    <h3>6.2</h3>
+    <p>Processing Times </p>
+    <h4>6.2.1</h4>
+    <div class="subBlock">
+        <p>During the DFL regular season (Preseason Week 2 to the end of Week 17), waivers are processed weekly (Tuesday at 9 PM Atlantic Time) and after each waiver processing free agents shall be available via Open Free Agency (First-Come-First-Serve transactions).</p>
+    </div>
+    <h4>6.2.2</h4>
+    <div class="subBlock">
+        <p>During the DFL offseason (Week 17 to kickoff preseason Week 2) waivers are processed weekly (Wednesday 12am), and players will be locked after each waiver processing.</p>
+    </div> 
+
+ <h2 class="sectionHeading" bind:this={seven}>Section 7 Trades</h2>
+    <h3>7.1</h3>
+    <p>Players, FAAB, and two-year-advance (i.e. 2022 and 2023 picks in 2021) rookie picks are available for trade.</p>
+    <h3>7.2</h3>
+    <p>Trades shall only be binding when completed on the Sleeper platform, and shall be manually processed by a Co-Commissioner within 24 hours.</p>
+    <h3>7.3</h3>
+    <p>If a trade has been offered or accepted in error, the owner making the error must notify the Co-Commissioners and the other team immediately (i.e. within 10 minutes of the trade acceptance) to request that the trade be voided. Trades may only be voided due to legitimate error that is reported in a timely manner - trades may not be voided due to buyer’s remorse, seller’s remorse, or failure to perform due diligence. The Co-Commissioners reserve the right to allow a trade to stand if the error is not deemed credible.</p>
+    <h3>7.4</h3>
+    <p>Owners must abide strictly by roster limits prior to any trades being processed.</p>
+    <h3>7.5</h3>
+    <p>Trades may be vetoed by a unanimous vote from Co-Commissioners on grounds of collusion or anti-competitive conduct, and trades may be retroactively voided if anti-competitive conduct is discovered. Owners involved may be required to forfeit games. The rationale for a veto shall be publicly documented and published to the official league chat.</p>
+    <h3>7.6</h3>
+    <p>Trade Deadline</p>
+    <h4>7.6.1</h4>
+    <div class="subBlock">
+        <p>Trades shall be excluded between the ending of the last game of week 12 and the ending of the final game of week 17. Trades are permitted at all other times.</p>
+    </div>
+
+
+ <h2 class="sectionHeading" bind:this={eight}>Section 8 Startup Draft</h2>
+    <h3>8.1</h3>
+    <p>The league will initially select players via a 30 round startup draft.</p>
+
+ <h2 class="sectionHeading" bind:this={nine}>Section 9 Annual Rookie Draft</h2>
+    <h3>9.1</h3>
+    <p>Beginning year two of the DFL, each Rookie Draft shall take place no later than one month after the NFL rookie draft.</p>
+    <h3>9.2</h3>
+    <p>Draft order will be set in the following manner:</p>
+    <h4>9.2.1</h4>
+    <div class="subBlock">
+        <p>The four six place teams (teams 7-12) in the final league standings after completion of the playoffs will have the first six positions in the draft, with their positions being determined via a draft lottery, with team 12 receiving 8ballots, team 11 6 ballots, team 10 receiving 4 ballots, team 9 receiving 3 ballots, team 8 receiving 2 ballots, and team 7 receiving 1 ballot. </p>
+    <h5>9.2.1.1</h5>
+    <div class="subBlock5">
+        <p>In the lottery, team 12 cannot receive worse than the 1.04 position for the rookie draft, and team 11 cannot receive worse than the 1.05 position in the rookie draft.</p>
+    </div>
+     <h5>9.2.1.2</h5>
+    <div class="subBlock5">
+        <p>Team standings for teams 7-12 will be determined by their maximum season theoretical points for as determined by Sleeper, with the team with the fewest maximum theoretical points for receiving 12th place in the league.</p>
+    </div>
+    </div>
+    <h4>9.2.2</h4>
+    <div class="subBlock">
+        <p>The final six teams will draft in reverse order according to the position that they finished after completion of the playoffs, with the exception of teams that lose in the first round of the playoffs, whose order in the draft will be determined by their maximum season theoretical points for as determined by Sleeper., with the team with the fewest maximum theoretical points for receiving 6th place standing, and the team with the most maximum theoretical points for receiving 5th place standing</p>
+    </div>
+    <h3>9.3</h3>
+    <p>Draft will be conducted on Sleeper through email.</p>
+    <h4>9.3.1</h4>
+    <div class="subBlock">
+        <p>Draft will consist of 6 rounds, done linearly (not snake).</p>
+    </div>
+    <h4>9.3.2</h4>
+    <div class="subBlock">
+        <p>Each pick is allotted a 12 hour draft clock</p>
+    <h5>9.3.2.1</h5>
+    <div class="subBlock5">
+        <p>Draft clock will start immediately following the previous pick </p>
+    </div>
+    </div>
+    <h4>9.3.3</h4>
+    <div class="subBlock">
+        <p>Failure to pick in the allotted time frame will result in the highest ranked player being drafted. </p>
+    </div>
+    <h4>9.3.4</h4>
+    <div class="subBlock">
+        <p>In the unlikely event a disruption occurs during the email draft with adverse results to any owner or team, the Co-Commissioners reserve the right to pause, modify, or otherwise alter the draft in such a way that corrects the adverse effect and promotes fairness and integrity of the league. Under no circumstances shall the Co-Commissioners or any owner alter the draft results or process so as to grant an unfair advantage to any owner. </p>
+    </div>
+    <h3>9.4</h3>
+    <p>Prior to the Rookie Draft every roster will get a 6 man roster increase accommodate the new picks (31 total players). The roster must be reduced to 25 plus the five man taxi squad two weeks prior to the first game of the NFL regular season in order to submit a valid lineup for week 1. </p>
+
+
+ <h2 class="sectionHeading" bind:this={ten}>Section 10 Fees, Payouts, and Travelling Trophy</h2>
+    <h3>10.1</h3>
+    <p>FEES </p>
+    <h4>10.1.1</h4>
+    <div class="subBlock">
+        <p>ANNUAL FEE: The annual fee for the league shall be $100 paid to the co-commissioner responsible for fees and league dues, due on or before the NFL draft of the successive years.</p>
+    </div>
+    <h4>10.1.2</h4>
+    <div class="subBlock">
+        <p>TOTAL: The total fees collected for the league shall be $1200 per year.</p>
+    </div>
+    <h4>10.1.3</h4>
+    <div class="subBlock">
+        <p>If a replacement owner has their league fees waived then an equal percentage will be subtracted from all three payouts. </p>
+    </div>
+    <h3>10.2</h3>
+    <p>PAYOUTS</p>
+    <h4>10.2.1</h4>
+    <div class="subBlock">
+        <p>THIRD PLACE PRIZE ($100)</p>
+    </div>
+    <h4>10.2.2</h4>
+    <div class="subBlock">
+        <p>SECOND PLACE PRIZE ($250)</p>
+    </div>
+    <h4>10.2.3</h4>
+    <div class="subBlock">
+        <p>FIRST PLACE PRIZE ($850)</p>
+    </div>
+    <h3>10.3</h3>
+    <p>All payouts are to be done by the Co-Commissioners according to the above listing within 7 days of the championship game</p>
+    <h3>10.4</h3>
+    <p>Traveling Trophy</p>
+    <h4>10.4.1</h4>
+    <div class="subBlock">
+        <p>The traveling trophy will be delivered to the League Champion(s) which the champion(s) will need to have engraved.</p>
+    </div>
+
+
+ <h2 class="sectionHeading" bind:this={eleven}>Section 11 Regular Season</h2>
+    <h3>11.1</h3>
+    <p>The season is comprised of 14 head to head matchups (NFL Weeks 1-14)</p>
+    <h3>11.2</h3>
+    <p>Schedule will be built using the Sleeper schedule creator. Errors in scheduling should be brought up immediately. The Co-Commissioners reserves the right to make corrections as needed.</p>
+
+
+ <h2 class="sectionHeading" bind:this={twelve}>Section 12 Playoffs</h2>
+    <h3>12.1</h3>
+    <p>Playoff will take place Weeks 15-17</p>
+    <h3>12.2</h3>
+    <p>The playoffs shall be comprised of the six teams with the highest winning percentage.</p>
+    <h4>12.2.1</h4>
+    <div class="subBlock">
+        <p>If two or more teams have the same winning percentage, the following tie-breaker rules will be enforced in this order:</p>
+    </div>
+    <h5>12.2.1.1</h5>
+    <div class="subBlock5">
+        <p>The team with the higher regular season point total.	</p>
+    </div>
+    <h5>12.2.1.2</h5>
+    <div class="subBlock5">
+        <p>The team with the better head-to-head record.</p>
+    </div>
+    <h3>12.3</h3>
+    <p>The Playoff eligible Teams shall be seeded one (1) through six (6) based on overall winning percentage, total points scored, and head-to-head match-ups won.</p>
+    <h4>12.3.1</h4>
+    <div class="subBlock">
+        <p>The Teams seeded one (1) and two (2) will have a bye week (Week 15)</p>
+    </div>
+    <h4>12.3.2</h4>
+    <div class="subBlock">
+        <p>The remaining teams will play based on seeding (3) vs (6) and (4) vs (5)</p>
+    </div>
+    <h4>12.3.3</h4>
+    <div class="subBlock">
+        <p>Each subsequent week of matchups will be determined by highest seed vs lowest seed. </p>
+    </div>
+
+
+
+ <h2 class="sectionHeading" bind:this={thirteen}>Section 13 Scoring</h2>
+    <h3>13.1</h3>
+    <p>0.1 points per rushing yard or receiving yard, 0.04 points per passing yard</p>
+    <h3>13.2</h3>
+    <p>6 points per touchdown, with the exception of passing touchdowns, which are worth 4 points.</p>
+    <h3>13.3</h3>
+    <p>0.5 points per reception </p>
+    <h4>13.3.1</h4>
+    <div class="subBlock">
+        <p>Starting in 2024, 1 point per reception for TE </p>
+    </div>
+    <h3>13.4</h3>
+    <p>-2 points per interception, -2 points per lost fumble for offensive players</p>
+    <h3>13.5</h3>
+    <p>Remaining scoring events not explicitly stated in the bylaws can be found on Sleeper</p>
+    <h3>13.6</h3>
+    <p>Scoring Lineups: QB, Q/W/R/T, WR, WR, WR, RB, RB, TE, W/R/T, W/R/T, K</p>
+    <h3>13.7</h3>
+    <p>Sleeper will apply official scoring corrections without exception, and changes will automatically take effect and may not be appealed (scoring, game outcomes, or otherwise).</p>
+    <h3>13.8</h3>
+    <p>Sleeper will determine player positions and make changes at their discretion.</p>
+
+
+ <h2 class="sectionHeading" bind:this={fourteen}>Section 14 Rule Changes</h2>
+    <h3>14.1</h3>
+    <p>The rules for each season shall be finalized by the NFL Super Bowl of each year and updated on Sleeper.</p>
+    <h3>14.2</h3>
+    <p>Each owner may submit rule changes at any time prior to NFL playoffs. Proposed rule changes may not take effect until after the Super Bowl. A proposed rule change may not be voted on more than once per year.</p>
+    <h3>14.3</h3>
+    <p>No rule change shall reasonably disadvantage any owner without their consent - if such a rule is passed, the disadvantaged owner may appeal to the Co-Commissioners to postpone the implementation of such a rule by one or more full seasons.</p>
+    <h3>14.4</h3>
+    <p>All proposals must be posted to the Facebook Group. Discussion of rules is highly encouraged. </p>
+    <h3>14.5</h3>
+    <p>Polls will operate based on popular vote</p>
+    <h4>14.5.1</h4>
+    <div class="subBlock">
+        <p>All polls must have the current rule as an option for voting</p>
+    </div>
+
+
+
+<h2 class="sectionHeading" bind:this={fifteen}>Section 15 Calendar</h2>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
+    <li><strong>NFL Draft</strong> - League Fees Due</li>
+    <li><strong>One Month After NFL Draft</strong> - Roster increase and Rookie Draft</li>
+    <li><strong>NFL Preseason Week 2</strong> - Start of DFL regular season, once weekly FAAB then regular free agency, FAAB reset, and roster cuts</li>
+    <li><strong>NFL Week 1</strong> - Week 1 of DFL matchups</li>
+    <li><strong>NFL Week 15</strong> - Start of DFL playoffs</li>
+    <li><strong>NFL Week 18</strong> - End of DFL regular season and once weekly FAAB / no free agency</li>
+    <li><strong>NFL Playoffs</strong> - Proposed rule changes due and start of voting</li>    
+    <li><strong>NFL Superbowl</strong> - All approved rule changes take effect</li>
     </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
-    
-    <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+
+
+
+ 
 
 </div>
