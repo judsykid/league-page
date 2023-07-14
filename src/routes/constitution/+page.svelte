@@ -658,7 +658,36 @@
     </ul>
 
 <h2 class="sectionHeading" bind:this={sixteen}>Section 16 Changelog</h2>
-
+    <p>August 8th 2021 – Final 2021 pre-season version of Bylaws accepted by members</p>
+    <p>September 26th 2021 - Clarifications made to how the rookie draft is to proceed. Section 9.2.1.1 added, stating:</p>
+    <div class="subBlock">
+        <p>9.2.1.1 Team standings for teams 7-12 will be determined by their win / loss record throughout the regular season, and if two teams share the same record the tie breaker will be the total number of points scored throughout the season.</p>
+    </div>
+    <p>And this section added to part 9.2.1, stating:</p>
+    <div class="subBlock">
+        <p>with their positions being determined via a draft lottery, with team 12 receiving 40% of the ballots, team 11 receiving 30% of the ballots, team 10 receiving 20% of the ballots, and team 9 receiving 10% of the ballots.</p>
+    </div>
+    <p>May 3rd 2022 – Outcomes of rule change votes:</p>
+    <ul>
+    <li>Two votes per team (one for co-managers, two for solo managers)</li>
+    <li>Trade deadline will be after the last game of week 12</li>
+    <li>Waiver system stays as is (free agency after waivers clear)</li>
+    <li>Rookie draft position changes – playoff teams stay the same, non-playoff teams in the draft lottery based off theoretical maximum points over the season (as determined by Sleeper)</li>
+    <li>Teams 7 and 8 remain out of the draft lottery – Only teams 9 – 12 are in the lottery</li>
+    <li>Keeping once-a-year FAAB reset</li>
+    <li>Changing waiver times from 4 AM (ADT) to 9 PT ADT – Whether that will be Tuesday or Wednesday evening is yet to be determined</li>
+    <li>Winners will now pay for their own of the trophy</li>
+    <li>We’ll be adding a set date (week) for the draft lottery</li>
+    </ul>
+    <p>April 6th 2023  – Rule change votes to be implemented:</p>
+    <ul>
+    <li>New rule for active players in the line up was accepted</li>
+    <li>Draft lottery for non-playoff teams has been expanded to include all non-playoff teams, with a future vote determining ballot distribution</li>
+    <li>Fumbles that result in a recovery by the offense are now scored at 0, fumbles lost still result in -2 for the fumbling player</li>
+    <li>Adding in TE premium in 2024 </li>
+    <li>Seeding of 1.07 and 1.08 determined by their regular season finish (by Max PF, just like we do with draft picks 1.01 - 1.06 lotto draft)</li>
+    <li>Keeping roster size at current 28, not reducing it to 25</li>
+    </ul>
  
 
 </div>
