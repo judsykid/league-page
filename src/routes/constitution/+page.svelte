@@ -1,6 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneOneTwo, oneOneThree, oneOneFour, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
+    let one, oneOne, oneOneOne, oneOneTwo, oneOneThree, oneOneFour, oneTwo, oneTwoOne, oneTwoTwo, oneThree, oneThreeOne, oneThreeTwo, oneThreeThree;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne;
     let four, fourOne, fourTwo;
@@ -151,13 +151,21 @@
     
     
         <h4 bind:this={oneOneOne}>1.1.1</h4>
-        <p>Owners are responsible for knowing and following the rules and deadlines set out in these bylaws.</p>    
+        <div class="subBlock">
+        <p>Owners are responsible for knowing and following the rules and deadlines set out in these bylaws.</p>   
+        </div>
         <h4 bind:this={oneOneTwo}>1.1.2</h4>
+        <div class="subBlock">
         <p>Owners are responsible for participating in all required league functions and activities, whether they occur during the season or the offseason.</p>    
+        </div>
         <h4 bind:this={oneOneThree}>1.1.3</h4>
+        <div class="subBlock">
         <p>Owners are responsible for notifying the Co-Commissioners if they will be away for an extended period of time.</p>    
+        </div>
         <h4 bind:this={oneOneFour}>1.1.4</h4>
+        <div class="subBlock">
         <p>Owners are responsible for responding to emails and private messages from the Co-Commissioners and other league members in a timely manner.</p>    
+        </div>
 
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Conduct</h3>
@@ -172,14 +180,33 @@
         <p>The Co-Commissioners shall be the moderators of all chat channels.</p>
     </div>
 
-    
-    <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
-    
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <h3 bind:this={oneThree}>1.3 Activity Requirements</h3>
 
-    <p>FAAB budgets will reset each season in January.</p>
-    
-    
+    <h4 bind:this={oneThreeOne}>1.3.1</h4>
+    <div class="subBlock">
+        <p>Trade inquiries sent by DFL must be responded to within a certain time limit, as set out below:</p>
+        <ol>
+        <li>During season: 48 hours</li>
+        <li>During offseason: 7 days</li>
+        <li>The Co-Commissioners may extend the time limit by request or in extenuating circumstances, at their discretion.</li>
+        <li>An owner may respond to a trade by rejecting/countering/accepting through the software platform.</li>
+        </ol>
+    </div>
+
+    <h4 bind:this={oneThreeTwo}>1.3.2</h4>
+    <div class="subBlock">
+        <p>Lineups must be set weekly during the season, including playoffs, with the exception of bye-week playoffs.</p>
+    </div>
+    <h5>1.3.2.1</h4>
+    <div class="subBlock">
+        <p>With the exception of kicker, if a team does not have an active player available to be played in a position a replacement player does not need to be acquired to fill the position.</p>
+    </div>
+
+    <h4 bind:this={oneThreeThree}>1.3.3</h4>
+    <div class="subBlock">
+        <p>Failure to meet activity requirements will result in warnings, sanctions, or removal from the league. </p>
+    </div>
+
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
