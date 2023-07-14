@@ -109,7 +109,9 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">Hall of Shamers Dynasty League: A Rulebook</h1>
+    <p>Welcome to the Hall of Shamers Dynasty League. Please read the bylaws below.</p>
+    <p>The purpose of these bylaws is to (1) ensure a fair and fun league for all owners, (2) ensure the long term viability of the league. If a rule is not explicitly stated, the Co-Commissioners will be responsible for interpreting these criteria and new rules will be voted on and subsequently documented in these bylaws, with each team having two votes: One per co-manager and two if the team is managed solo. If this document disagrees with league site settings, site settings will prevail until corrected.</p>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
