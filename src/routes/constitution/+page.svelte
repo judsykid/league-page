@@ -192,7 +192,17 @@
         </ol>
     </div>
 
+    
+    <h4 bind:this={oneThreeTwo}>1.3.2</h4>
+    <div class="subBlock">
+        <p>Lineups must be set weekly during the season, including playoffs, with the exception of bye-week playoffs.</p>
+    </div>
 
+
+    <h4 bind:this={oneThreeThree}>1.3.3</h4>
+    <div class="subBlock">
+        <p>Failure to meet activity requirements will result in warnings, sanctions, or removal from the league. </p>
+    </div>
 
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
