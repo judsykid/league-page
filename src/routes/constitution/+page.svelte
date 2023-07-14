@@ -185,12 +185,7 @@
     <h4 bind:this={oneThreeOne}>1.3.1</h4>
     <div class="subBlock">
         <p>Trade inquiries sent by DFL must be responded to within a certain time limit, as set out below:</p>
-        <ol>
-        <li>During season: 48 hours</li>
-        <li>During offseason: 7 days</li>
-        <li>The Co-Commissioners may extend the time limit by request or in extenuating circumstances, at their discretion.</li>
-        <li>An owner may respond to a trade by rejecting/countering/accepting through the software platform.</li>
-        </ol>
+    
     </div>
 
     <h4 bind:this={oneThreeTwo}>1.3.2</h4>
