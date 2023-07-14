@@ -123,31 +123,33 @@
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Teams, Ownership, and Replacement</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: League Governance</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
-    
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: League Platforms</h3>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Rosters</h3>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Free Agency and FAAB</h3>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Trades</h3>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Startup Draft</h3>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Section 9: Annual Rookie Draft</h3>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(ten)}>Section 10: Fees, Payouts, and Travelling Trophy</h3>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eleven)}>Section 11: Regular Season</h3>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(twelve)}>Section 12: Playoffs</h3>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(thirteen)}>Section 13: Scoring</h3>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(fourteen)}>Section 14: Rules Changes</h3>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(fifteen)}>Section 15: Calendar</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
-    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(sixteen)}>Section 16: Changelog</h3>
     
     <hr />
     
@@ -655,7 +657,7 @@
     <li><strong>NFL Superbowl</strong> - All approved rule changes take effect</li>
     </ul>
 
-
+<h2 class="sectionHeading" bind:this={sixteen}>Section 16 Changelog</h2>
 
  
 
