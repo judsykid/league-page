@@ -168,25 +168,7 @@
         </div>
 
 
-    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Conduct</h3>
-  
-    <h4 bind:this={oneTwoOne}>1.2.1</h4>
-    <div class="subBlock">
-        <p>Trash talking and shit-posting are actively encouraged.</p>
-    </div>
 
-    <h4 bind:this={oneTwoTwo}>1.2.2</h4>
-    <div class="subBlock">
-        <p>The Co-Commissioners shall be the moderators of all chat channels.</p>
-    </div>
-
-    <h3 bind:this={oneThree}>1.3 Activity Requirements</h3>
-
-    <h4 bind:this={oneThreeOne}>1.3.1</h4>
-    <div class="subBlock">
-        <p>Trade inquiries sent by DFL must be responded to within a certain time limit, as set out below:</p>
-    
-    </div>
 
     <h4 bind:this={oneThreeTwo}>1.3.2</h4>
     <div class="subBlock">
