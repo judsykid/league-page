@@ -57,6 +57,11 @@
     .subBlock {
         margin-left: 2.4em;
     }
+    .subBlock5 {
+        margin-left: 6em;
+        font-size: 0.8em;
+        line-height: 1.1em;
+    }
 
     .sectionHeading {
         margin: 4em 0 1.5em;
