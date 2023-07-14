@@ -202,11 +202,12 @@
     <h4 bind:this={oneThreeTwo}>1.3.2</h4>
     <div class="subBlock">
         <p>Lineups must be set weekly during the season, including playoffs, with the exception of bye-week playoffs.</p>
+    </div>
     <h5>1.3.2.1</h5>
-    <div class="subBlock5">
+    <div class="subBlock">
         <p>With the exception of kicker, if a team does not have an active player available to be played in a position a replacement player does not need to be acquired to fill the position.</p>
     </div>
-    </div>
+    
 
 
     <h4 bind:this={oneThreeThree}>1.3.3</h4>
