@@ -50,8 +50,8 @@
 
     h5 {
         margin-left: 6em;
-        font-size: 0.8em;
-        line-height: 1.1em;
+        font-size: 1.2em;
+        line-height: 1.2em;
     }
 
     .subBlock {
@@ -59,8 +59,6 @@
     }
     .subBlock5 {
         margin-left: 6em;
-        font-size: 0.8em;
-        line-height: 1.1em;
     }
 
     .sectionHeading {
@@ -203,7 +201,7 @@
         <p>Lineups must be set weekly during the season, including playoffs, with the exception of bye-week playoffs.</p>
     </div>
     <h5>1.3.2.1</h5>
-    <div class="subBlock">
+    <div class="subBlock5">
         <p>With the exception of kicker, if a team does not have an active player available to be played in a position a replacement player does not need to be acquired to fill the position.</p>
     </div>
 
