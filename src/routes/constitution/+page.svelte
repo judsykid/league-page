@@ -1,7 +1,7 @@
 <script>
     import { dues } from '$lib/utils/helper';
     let one, oneOne, oneOneOne, oneOneTwo, oneOneThree, oneOneFour, oneTwo, oneTwoOne, oneTwoTwo, oneThree, oneThreeOne, oneThreeTwo, oneThreeThree, oneFour, oneFourOne, oneFourTwo, oneFourThree, oneFive, oneFiveOne;
-    let two, twoOne, twoTwo, twoThree;
+    let two, twoOne, twoTwo, twoThree, twoThreeOne, twoThreeTwo, twoFour, twoFourOne;
     let three, threeOne;
     let four, fourOne, fourTwo;
     let five, fiveOne;
@@ -231,7 +231,7 @@
         <p>Anti-Competitive Trades</p>
         <ol>
         <li>Owners may not make trades that result in worsening their own team in order to stock another team playing a third team they want or need to lose.</li>
-        <li>1.4.2.1.2. If an owner does not intend to return for the next season, their trades must be approved by a co-commissioner prior to being completed.</li>
+        <li>If an owner does not intend to return for the next season, their trades must be approved by a co-commissioner prior to being completed.</li>
         </ol>
     </div>
     <h5>1.4.2.2</h5>
@@ -276,17 +276,34 @@
     </div>
 
 
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
+    <h2 class="sectionHeading" bind:this={two}>Section 2 Teams, Ownership, and Replacement</h2>
     
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <h3 bind:this={twoOne}>2.1</h3>
+    <p>The League will be comprised of 12 teams.</p>
 
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+    <h3 bind:this={twoTwo}>2.2</h3>
+    <p>For each franchise, the team owner(s) must choose a team name</p>
     
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+    <h3 bind:this={twoThree}>2.3</h3>
+    <p>Leaving the League:</p>
+
+    <h4 bind:this={twoThreeOne}>2.3.1</h4>
+    <div class="subBlock">
+        <p>An owner may choose to retire “in good standing” between Week 17 and the 2 weeks prior to the Rookie Draft. When this is announced, the owner will be prevented from making transactions. The owner may be permitted to rejoin the league if there is a vacancy in the future.</p>
+    </div>
+
+    <h4 bind:this={twoThreeTwo}>2.3.2</h4>
+    <div class="subBlock">
+        <p>An owner who leaves the league under any other conditions (“ban") shall be prevented from making transactions and shall not be permitted to rejoin the league in the future.</p>
+    </div>
+
+    <h3 bind:this={twoFour}>2.4</h3>
+    <p>Replacement Process</p>
+    <h4 bind:this={twoFourOne}>2.4.1</h4>
+    <div class="subBlock">
+        <p>Owner vacancies will be posted on the message board. The list of potential owners shall be voted upon by league members and the vote winner shall be awarded the vacancy (pending payment of dues).</p>
+    </div>
+    
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
